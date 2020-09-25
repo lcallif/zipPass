@@ -1,4 +1,4 @@
-# Very short description of the package
+# YourPersonalInformation's Package for zipping/passwword protecting a file.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/yourpersonalinformation/zippass.svg?style=flat-square)](https://packagist.org/packages/yourpersonalinformation/zippass)
 [![Build Status](https://img.shields.io/travis/yourpersonalinformation/zippass/master.svg?style=flat-square)](https://travis-ci.org/yourpersonalinformation/zippass)
