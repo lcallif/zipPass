@@ -1,0 +1,54 @@
+{
+    "name": "yourpersonalinformation/zippass",
+    "description": "Laravel - Zip and Password protect the uploaded file(s)",
+    "keywords": [
+        "yourpersonalinformation",
+        "zippass"
+    ],
+    "homepage": "https://github.com/yourpersonalinformation/zippass",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Phread Information",
+            "email": "lester@callif.us",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "YourPersonalInformation\\ZipPass\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YourPersonalInformation\\ZipPass\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YourPersonalInformation\\ZipPass\\ZipPassServiceProvider"
+            ],
+            "aliases": {
+                "ZipPass": "YourPersonalInformation\\ZipPass\\ZipPassFacade"
+            }
+        }
+    }
+}
