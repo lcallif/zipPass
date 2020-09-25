@@ -12,7 +12,7 @@ This package will move your uploaded file to the final resting directory and zip
 You can install the package via composer:
 
 ```bash
-composer require yourpersonalinformation/zippass
+composer require lcallif/zippass
 ```
 
 ## Usage
